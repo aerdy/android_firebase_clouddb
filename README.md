@@ -7,19 +7,12 @@ Please only use the security email account for exploits and vulnerabilities. All
 
 We do not provide acknowledgments on our site for reports, although we'll send you swag and our gratitude for reports that demonstrate a new, unreported issue.
 
-# Add Gradle Dependency or Maven
+# Add Gradle Dependency
 
-//gradle
 dependencies {
     compile 'com.firebase:firebase-client-android:2.3.1'
 }
 
-//maven
-<dependency>
-    <groupId>com.firebase</groupId>
-    <artifactId>firebase-client-android</artifactId>
-    <version>[2.5.2,)</version>
-</dependency>
 
 # Declared Object in class Application
 @Override
