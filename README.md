@@ -9,11 +9,19 @@ We do not provide acknowledgments on our site for reports, although we'll send y
 
 # Add Gradle Dependency
 
-dependencies {
-    compile 'com.firebase:firebase-client-android:2.3.1'
-}
+    dependencies {
+        compile 'com.firebase:firebase-client-android:2.3.1'
+    }
 
-
+# or Maven Dependency
+    <dependency>
+        <groupId>com.firebase</groupId>
+        <artifactId>firebase-client-android</artifactId>
+        <version>[2.5.2,)</version>
+    </dependency>
+# or Download Package 
+https://cdn.firebase.com/java/firebase-client-android-2.5.2.jar
+    
 # Declared Object in class Application
 @Override
     public void onCreate() {
